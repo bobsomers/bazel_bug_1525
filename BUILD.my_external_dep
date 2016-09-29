@@ -3,6 +3,6 @@ cc_library(
     hdrs = ["hello.h"],
     srcs = ["hello.cpp"],
     includes = ["."],
-    copts = ["-Wno-deprecated-declarations"],
+    copts = ["-Werror", "-Wno-deprecated-declarations"],
     visibility = ["//visibility:public"],
 )
