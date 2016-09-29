@@ -1,9 +1,9 @@
 #include <cstdlib>
 #include <string>
 
-#include <iostream>
+#include "hello.h"
 
 int main(int, char*[]) {
-  std::cout << "Hello, world!" << std::endl;
+  sayHello("Bazel team");
   return EXIT_SUCCESS;
 }

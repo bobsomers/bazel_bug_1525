@@ -1,5 +1,6 @@
 cc_binary(
     name = "my_project",
     srcs = ["main.cpp"],
-    deps = [],
+    copts = ["-Wall"],
+    deps = ["//external:hello"],
 )

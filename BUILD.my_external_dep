@@ -1,0 +1,8 @@
+cc_library(
+    name = "hello",
+    hdrs = ["hello.h"],
+    srcs = ["hello.cpp"],
+    includes = ["."],
+    copts = ["-Wall"],
+    visibility = ["//visibility:public"],
+)
